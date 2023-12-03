@@ -6,7 +6,7 @@
 * É necessário o PHP, composer, node.js, npm instalado e VueJS;
 * NodeJS: [Node.js (nodejs.org)](https://nodejs.org/en)
 * Na hora de baixar sempre use a versão LTS
-* Quando o node é intalado instalar também o Chocolatey que aparece como opção, link da documentação: [Chocolatey Software | Chocolatey - The package manager for Windows](https://chocolatey.org/);
+* Quando instalar o node instale também o Chocolatey que aparece como opção, link da documentação: [Chocolatey Software | Chocolatey - The package manager for Windows](https://chocolatey.org/);
 
 * [Laravel - The PHP Framework For Web Artisans](https://laravel.com/)
 * [VueJS](https://vuejs.org)
@@ -25,14 +25,14 @@
 Exemplo de comando para criar um projeto Laravel+VueJS:
 > * OBS: laravel-vue é o nome do projeto;
 > * Comando: composer create-project laravel/laravel laravel-vue
-> * Em seguida é necessário instalar o VueJS asssim: npm i vue@next 
+> * Em seguida é necessário instalar o VueJS assim: npm i vue@next 
 > * Após instalar o VueJS instale o plugin Vue assim: npm i @vitejs/plugin-vue
-> * Possívelmete vai ser necessário instalar um pacote de "linguagem" vue também;
+> * Possívelmente vai ser necessário instalar um pacote de "linguagem" vue também;
 
 > * O arquivo vite.config.js é usado para integrar o Laravel com o VueJS
 > - Para interligar é necessário importar o Vue e chamalo dentro de plugins
 > - Comando para iniciar o servidor PHP Laravel: php artisan serve
-> - Comando possivelmente(verificar) para iniciar o VueJS: npm run dev (OBS: abra outro terminal para esse comando para não para o servidor artisan)
+> - Comando para iniciar o VueJS: npm run dev (OBS: abra outro terminal para esse comando para não para o servidor artisan)
 > - Comando para parar os servidores Laravel e VueJS: CTRL+C
 > - Todo componente criado precisa ser registrado dentro de app.js para funcionar;
 > - Quando for criar uma página nova sempre será necessário criar também a rota dela em web.php
